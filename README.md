@@ -9,10 +9,10 @@ This project focuses on validating a markerless optical motion capture (ML-OMC) 
 
 This project resulted in a peer-reviewed open-access paper:
 
-> Bonakdar, A., et al. (2024). *Ergonomic Risk Assessment in Manual Handling Tasks Using Markerless Optical Motion Capture*. **Journal of NeuroEngineering and Rehabilitation**.  
+> Bonakdar, A., et al. (2024). *Validation of markerless vision-based motion capture for ergonomics risk assessment*. **International Journal of Industrial Ergonomics**.  
 > 🔗 [Read the full article here](https://doi.org/10.1016/j.ergon.2025.103734)
 
-Study Overview:
+## Study Overview:
 Work-related musculoskeletal disorders (WMSDs) often result from awkward postures and heavy lifting. This project aimed to assess the potential of ML-OMC systems to estimate joint kinematics and calculate ergonomic scores accurately in such scenarios.
 
 Methodology
