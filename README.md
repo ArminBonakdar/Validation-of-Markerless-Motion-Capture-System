@@ -2,14 +2,26 @@
 
 Ergonomic-Risk-Assessment-using-ML-OMC
 
-Ergonomic Risk Assessment in Manual Handling Tasks Using ML-OMC
-Work-related musculoskeletal disorders (WMSDs) are prevalent, often resulting from awkward postures and heavy lifting. This study aims to validate the accuracy and reliability of markerless optical motion capture (ML-OMC) systems for ergonomic risk assessment by comparing them with marker-based optical motion capture (MB-OMC) and inertial measurement units (IMUs) during a lifting task.
+This project focuses on validating a markerless optical motion capture (ML-OMC) system for ergonomic risk assessment during manual lifting tasks. The system was benchmarked against a marker-based OMC (MB-OMC) and inertial measurement units (IMUs).
 
-Methodology:
-Eight participants performed a lifting task while their joint angles were recorded using three measurement systems: ML-OMC, MB-OMC, and IMUs. Joint reaction forces were estimated using joint angle data and ground reaction forces through biomechanical modeling. Postural ergonomic assessment scores were calculated for the lifting initiation posture using the three systems and inputs from biomechanics experts.
 
+## 📄 Publication
+
+This project resulted in a peer-reviewed open-access paper:
+
+> Bonakdar, A., et al. (2024). *Ergonomic Risk Assessment in Manual Handling Tasks Using Markerless Optical Motion Capture*. **Journal of NeuroEngineering and Rehabilitation**.  
+> 🔗 [Read the full article here](https://doi.org/10.1016/j.ergon.2025.103734)
+
+Study Overview:
+Work-related musculoskeletal disorders (WMSDs) often result from awkward postures and heavy lifting. This project aimed to assess the potential of ML-OMC systems to estimate joint kinematics and calculate ergonomic scores accurately in such scenarios.
+
+Methodology
 Inputs:
-- Number of participants: 8 (4 males, 4 females; age: 25 ± 3 years, height: 166 ± 7 cm, body mass: 61 ± 7 kg)
+Participants
+- 8 healthy individuals (4 males, 4 females)
+- Age: 25 ± 3 years
+- Height: 166 ± 7 cm
+- Body Mass: 61 ± 7 kg
 
 Measurement Systems:
 - ML-OMC: Vision-based markerless optical motion capture
@@ -20,7 +32,10 @@ Measurement Systems:
 Task: Lifting a 28 lbs. (12.7 kg) box from the floor to pelvis height while standing with each foot on a force plate.
 
 - Joint Angles Recorded: Back, neck, knee, elbow, shoulder
+  
+- Biomechanical Modeling: Joint reaction forces estimated using joint angle data and ground reaction forces.
 
-Biomechanical Modeling: Joint reaction forces estimated using joint angle data and ground reaction forces.
+Data Processing:
+- All datasets were downsampled to 40 Hz for synchronization.
+- Alignment was performed using the hip joint angle peak as a reference across systems.
 
-Data preprocessing included downsampling the recorded data to a uniform frequency of 40 Hz for analysis. The ML-OMC data were aligned with synchronized MB-OMC, IMUs, and force plate data using the peak of the hip joint angle as a reference point.
